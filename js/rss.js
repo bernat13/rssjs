@@ -6,7 +6,7 @@ fetch('rss.xml')
         var rss = data.querySelector('rss');
             // en data tengo el contenido del xml SIEMPRE que el RSS esté en mi mismo servidor.
             // Para eso, usaremos el live server de Visual Studio Code.
-        
+            // Intenta ver lo que llega en data y rss.
 
 
             var items= rss.querySelectorAll("item");
